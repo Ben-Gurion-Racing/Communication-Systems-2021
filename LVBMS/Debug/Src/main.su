@@ -1,9 +1,0 @@
-main.c:102:6:CAN_Tx	64	static
-main.c:140:6:sampToTemp	32	static
-main.c:154:6:sampToVolt	40	static
-main.c:168:6:messegeTransmitor	0	static
-main.c:188:6:voltOutOfBoundsMessage	8	static
-main.c:173:6:tempOutOfBoundsMessage	8	static
-main.c:264:6:SystemClock_Config	96	static
-main.c:207:5:main	56	static
-main.c:558:6:Error_Handler	0	static
