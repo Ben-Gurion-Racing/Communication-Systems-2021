@@ -1,0 +1,17 @@
+ERROR org.eclipse.rse.ui  Error creating temp project
+org.eclipse.core.internal.resources.ResourceException(/Users/johnnydekel/Desktop/stmProjects/RemoteSystemsTempFiles/.project)[272]: java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at org.eclipse.core.internal.utils.FileUtil.transferStreams(FileUtil.java:417)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1164)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.internalWrite(FileSystemResourceManager.java:674)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1365)
+	at org.eclipse.core.internal.resources.Project.writeDescription(Project.java:1346)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:289)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:242)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.createRemoteEditProject(SystemRemoteEditManager.java:334)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.getRemoteEditProject(SystemRemoteEditManager.java:284)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+--------------------------------------------

@@ -1,0 +1,20 @@
+21:19:55 **** Incremental Build of configuration Debug for project Data_Logger ****
+make all 
+Building file: ../Src/Data_Logger_main.c
+Invoking: MCU GCC Compiler
+/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 '-D__weak=__attribute__((weak))' '-D__packed="__attribute__((__packed__))"' -DUSE_HAL_DRIVER -DSTM32F767xx -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Inc" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Drivers/STM32F7xx_HAL_Driver/Inc" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Drivers/CMSIS/Include" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/system" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/netif/ppp" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/lwip" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/lwip/apps" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/lwip/priv" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/lwip/prot" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/netif" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/posix" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/src/include/posix/sys" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Middlewares/Third_Party/LwIP/system/arch" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Drivers/CMSIS/Include" -I"/Users/johnnydekel/Desktop/stmProjects/Data_Logger/Drivers/CMSIS/Include"  -O3 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/Data_Logger_main.d" -MT"Src/Data_Logger_main.o" -o "Src/Data_Logger_main.o" "../Src/Data_Logger_main.c"
+Finished building: ../Src/Data_Logger_main.c
+ 
+Building target: Data_Logger.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F767ZITx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Data_Logger.elf" @"objects.list"   -lm
+Finished building target: Data_Logger.elf
+ 
+/Library/Developer/CommandLineTools/usr/bin/make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Data_Logger.elf" "Data_Logger.hex"
+arm-none-eabi-size "Data_Logger.elf"
+   text	   data	    bss	    dec	    hex	filename
+  56344	    132	  29148	  85624	  14e78	Data_Logger.elf
+ 

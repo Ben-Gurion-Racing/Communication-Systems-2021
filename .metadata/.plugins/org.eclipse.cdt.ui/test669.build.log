@@ -1,0 +1,6 @@
+18:30:31 **** Clean-only build of configuration Debug for project test669 ****
+make -j3 clean 
+make: *** No rule to make target `clean'.  Stop.
+
+18:30:31 Build Finished (took 138ms)
+

@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:stm669.elf,org.eclipse.launchbar.core.descriptorType.default\:LVBMS_Beta Run,org.eclipse.launchbar.core.descriptorType.default\:New_Pedals Debug,org.eclipse.launchbar.core.descriptorType.default\:ECU_beta Run,org.eclipse.launchbar.core.descriptorType.default\:Data_Logger Run
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:LVBMS_Beta\ Run/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_Pedals\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:New_Pedals\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:stm669.elf/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:stm669.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
